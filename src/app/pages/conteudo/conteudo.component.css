@@ -1,0 +1,48 @@
+.container-conteudo{
+    border: solid #98a0af 3px;
+    margin: 25px auto;
+    padding:35px 0;
+    width: 90%;
+    height: 100%;
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-conteudo > a{
+    margin-top: 25px;
+    font-size: 20px;
+    color: black;
+}
+
+.container-conteudo > a:hover{
+    color: red;
+}
+
+.conteudo-capa > img{
+    border: solid #98a0af 3px;
+    border-radius:25px 25px 0 0 ;
+    width: 900px;
+    min-width: 500px;
+    height: 300px;
+}
+
+.conteudo-titulo{
+    margin: 15px;
+    font-size: 30px;
+}
+
+.conteudo-texto{
+    width: 900px;
+    font-size: 20px;
+}
+
+.conteudo-texto > p{
+    color: gray;
+    margin-bottom: 15px;
+}

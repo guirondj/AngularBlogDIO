@@ -1,18 +1,18 @@
 <div class="container-big-card">
 
     <div class="big-card_foto">
-        <a href="#">
-            <img src="https://www.adrenaline.com.br/wp-content/plugins/seox-image-magick/imagick_convert.php?width=910&height=568&format=webp&quality=91&imagick=/wp-content/uploads/2023/03/resident-evil-44.jpg" alt="Residente evil 4 " width="500px" height="350">
+        <a [routerLink]="['conteudo', id]">
+            <img src="{{conteudoFoto}}" alt="Residente evil 4 " width="500px" height="350">
         </a>
     </div>
 
     <div class="big-card_titulo">
-        <a href="#">Sobre Resident Evil 4</a>
+        <a [routerLink]="['conteudo', id]"> {{conteudoTitulo}} </a>
     </div>
 
     <div class="big-card_resumo">
-        <p>Leon S. Kennedy era apenas um policial novato quando presenciou o tenebroso evento que aconteceu em 1998, na cidade de Raccoon City. Muito tempo se passou e Leon finalmente conseguiu deixar para trás as imagens daquele dia. Seis anos depois, ele é um agente do serviço secreto norte-americano, responsável pela proteção da família presidencial.</p>
+        <p> {{conteudoTexto}} </p>
     </div>
 
-    <button>Saiba +</button>
+    <button [routerLink]="['conteudo', id]">Saiba +</button>
 </div>

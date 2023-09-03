@@ -10,6 +10,7 @@ import { SmallCardComponent } from './componentes/small-card/small-card.componen
 import { ArtigosComponent } from './componentes/artigos/artigos.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AllArtigoComponent } from './componentes/all-artigo/all-artigo.component';
+import { ConteudoComponent } from './pages/conteudo/conteudo.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AllArtigoComponent } from './componentes/all-artigo/all-artigo.componen
     SmallCardComponent,
     ArtigosComponent,
     HomeComponent,
-    AllArtigoComponent
+    AllArtigoComponent,
+    ConteudoComponent
   ],
   imports: [
     BrowserModule,
