@@ -1,0 +1,25 @@
+.container-nav-bar{
+    margin-top: 50px;
+}
+
+.container-nav-bar ul{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container-nav-bar> ul> li{
+    margin-left: 30px;
+    list-style: none;
+}
+
+.container-nav-bar> ul> li> a{
+    color: black;
+    font-size: 22px;
+    transition: .5s;
+}
+
+.container-nav-bar> ul> li> a:hover{
+    font-style: italic;
+    color: red;
+    text-decoration: underline;
+}

@@ -1,0 +1,50 @@
+.nome-blog{
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #0b1e45;
+    color: white;
+}
+
+.nome-blog > h2{
+    padding: 7px;
+}
+.principal{
+    padding:0px 25px;
+    width: 100vw;
+    height: 110px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.img-logo{
+    width:19%;
+}
+a{
+    text-decoration: none
+}
+
+input{
+    display: block;
+    text-decoration: none;
+    border: #fff;
+    text-align: center;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 19px;
+    color: white;
+    background-color: #0b1e45;
+}
+
+button:nth-child(even){
+    background-color: #fff;
+    color: #0b1e45;
+}
+
+button:hover{
+    cursor: pointer;
+}

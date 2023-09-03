@@ -1,0 +1,40 @@
+.container-big-card{
+    border: solid #98a0af 3px;
+    width: 600px;
+    height: 600px;
+    padding: 45px;
+    border-radius: 25px;
+
+    margin: 0 25px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.big-card_foto a > img{
+    border-radius: 25px 25px 0 0;
+}
+
+.big-card_titulo > a{
+    font-size: 32px;
+    margin: 10px 0;
+    color: black;
+}
+
+.big-card_resumo > p{
+    color:gray;
+    margin-bottom: 10px;
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    background-image: linear-gradient(-105deg, blue, rgb(102, 0, 255), rgb(208, 0, 255));
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
